@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Digital Detox</title>
+  <meta name="description"
+    content="Get in touch with the Digital Detox team for questions, suggestions, and shared experiences." />
+  <link rel="icon" href="media/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Quicksand:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1/css/bulma.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="contact-page">
+  <header class="site-header" aria-label="Main navigation">
+    <nav class="site-nav">
+      <a class="site-nav-link" href="index.html">Home</a>
+      <a class="site-nav-link" href="about.html">About</a>
+      <a class="site-nav-link is-active" href="contact.html" aria-current="page">Contact</a>
+      <a class="site-nav-link" href="blog.html">Blog</a>
+    </nav>
+  </header>
+  <main class="page-shell">
+    <section class="page-hero">
+      <p class="page-kicker">Get in Touch</p>
+      <h1>We'd love to hear from you!</h1>
+      <p class="page-lead">
+        Whether you have questions, suggestions, or want to share your digital detox journey, feel free to reach out.
+      </p>
+      <div class="buttons mt-4 page-nav-buttons">
+        <a class="button is-dark is-rounded page-nav-btn" href="index.html">Home</a>
+        <a class="button is-dark is-rounded page-nav-btn" href="about.html">About</a>
+        <a class="button is-dark is-rounded page-nav-btn" href="blog.html">Blog</a>
+      </div>
+    </section>
+
+    <section class="page-grid" aria-label="Contact details and form">
+      <article class="page-card contact-details">
+        <h2>Contact Details</h2>
+        <p><strong>Email:</strong> <a href="mailto:hello@digitaldetoxlife.com">hello@digitaldetoxlife.com</a></p>
+        <p><strong>Phone:</strong> +234 000 000 0000</p>
+        <p><strong>Address:</strong> Lagos, Nigeria</p>
+      </article>
+
+      <article class="page-card">
+        <h2>Contact Form</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="field">
+            <label class="label" for="name">Name</label>
+            <div class="control">
+              <input class="input" id="name" name="name" type="text" required />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="email">Email</label>
+            <div class="control">
+              <input class="input" id="email" name="email" type="email" required />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="message">Message</label>
+            <div class="control">
+              <textarea class="textarea" id="message" name="message" rows="4" required></textarea>
+            </div>
+          </div>
+          <div class="control mt-4">
+            <button class="button is-dark is-rounded page-nav-btn" type="submit">Send Message</button>
+          </div>
+        </form>
+      </article>
+    </section>
+  </main>
+</body>
+
+</html>

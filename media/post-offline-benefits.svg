@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Benefits of offline time image</title>
+  <desc id="desc">Park landscape with people talking and no screens.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#CFFAFE"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="980" cy="120" r="60" fill="#FDE68A"/>
+  <rect y="420" width="1200" height="280" fill="#86EFAC"/>
+  <ellipse cx="300" cy="420" rx="190" ry="70" fill="#4ADE80"/>
+  <ellipse cx="820" cy="420" rx="240" ry="85" fill="#4ADE80"/>
+  <rect x="140" y="300" width="40" height="170" fill="#92400E"/>
+  <circle cx="160" cy="250" r="75" fill="#22C55E"/>
+  <rect x="980" y="300" width="40" height="170" fill="#92400E"/>
+  <circle cx="1000" cy="250" r="75" fill="#22C55E"/>
+  <circle cx="520" cy="500" r="42" fill="#1D4ED8"/>
+  <circle cx="620" cy="500" r="42" fill="#EA580C"/>
+  <rect x="525" y="545" width="90" height="90" rx="20" fill="#334155"/>
+  <rect x="620" y="545" width="90" height="90" rx="20" fill="#334155"/>
+</svg>
